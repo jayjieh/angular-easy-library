@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "too-easy": [
+        "dist/too-easy"
+      ],
+      "too-easy/*": [
+        "dist/too-easy/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
